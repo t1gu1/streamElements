@@ -1,0 +1,8 @@
+body {	
+  display: flex;
+  	align-items: {{verticalImageAlign}};
+}
+
+.img-container {
+  {{horizontalImageAlign}}: auto;
+}

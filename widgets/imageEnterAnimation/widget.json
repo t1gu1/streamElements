@@ -1,0 +1,58 @@
+{
+  "widgetName": {
+    "type": "hidden",
+    "value": "Border widget"
+  },
+  "image": {
+    "type": "image-input",
+    "label": "Image"
+  },
+  "imageWidth": {
+    "type": "Number",
+    "label": "Image Width",
+    "value": 300
+  },
+  "verticalImageAlign": {
+    "type": "dropdown",
+    "label": "Alignement verticale:",
+    "value": "center",
+    "options": {
+      "flex-start": "top",
+      "center": "center",
+      "flex-end": "bottom"
+    }
+  },
+  "horizontalImageAlign": {
+    "type": "dropdown",
+    "label": "Alignement horizontale:",
+    "value": "center",
+    "options": {
+      "margin": "center",
+      "margin-right": "left",
+      "margin-left": "right"
+    }
+  },
+  "animation": {
+    "type": "dropdown",
+    "label": "Type d'animation:",
+    "value": "bounceInUp",
+    "options": {
+      "flipInY": "flipInY",
+      "pulse": "pulse",
+      "zoomIn": "zoomIn",
+      "slideInTop": "slideInTop",
+      "slideInLeft": "slideInLeft",
+      "slideInRight": "slideInRight",
+      "slideInBottom": "slideInBottom",
+      "fade": "fade",
+      "fadeInLeft": "fadeInLeft",
+      "fadeInBottom": "fadeInBottom",
+      "fadeInTop": "fadeInTop",
+      "fadeInRight": "fadeInRight",
+      "bounceInUp": "bounceInUp",
+      "bounceInLeft": "bounceInLeft",
+      "bounceInRight": "bounceInRight",
+      "bounceInDown": "bounceInDown"
+    }
+  }
+}
